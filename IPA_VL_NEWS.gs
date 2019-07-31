@@ -68,7 +68,7 @@ function myFunction() {
   //　Logger.log(mailBody)
  
 　　　//送信する
-    var to = "pball@primebrains.co.jp";
+    var to = "";
 　  MailApp.sendEmail(to,mailTitle,mailBody)
    
    Logger.log(mailBody)
