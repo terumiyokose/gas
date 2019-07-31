@@ -44,7 +44,7 @@ function doPost(e) {
 }
 
 function postSlack(text){
- var url = 'https://hooks.slack.com/services/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';
+ var url = '';
   var options = {
     "method" : "POST",
     "headers": {"Content-type": "application/json"},
