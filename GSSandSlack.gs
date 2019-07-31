@@ -19,7 +19,7 @@ function doPost(e) {
   var value = ret;
 
   value = value.replace(/\s/g, "+");
-  var ss = SpreadsheetApp.openById("1-McfLFnUZrKa9C9858Pp_49W21eMekao0gvY85h6CCk");
+  var ss = SpreadsheetApp.openById("");
    var sh = ss.getSheetByName("あるある");
   
 
